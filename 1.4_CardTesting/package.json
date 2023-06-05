@@ -1,0 +1,17 @@
+{
+    "name": "1.4_cardtesting",
+    "version": "1.0.0",
+    "description": "test",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [
+        "test"
+    ],
+    "author": "Traven Wells",
+    "license": "ISC",
+    "dependencies": {
+        "jest": "^29.5.0"
+    }
+}
