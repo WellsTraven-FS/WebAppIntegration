@@ -1,0 +1,35 @@
+{
+    "private": true,
+    "scripts": {
+        "dev": "next dev",
+        "build": "next build",
+        "start": "next start",
+        "demoTest": "node demo.test.js",
+        "demoExternalTest": "node external.test.js",
+        "test": "jest"
+    },
+    "dependencies": {
+        "chromedriver": "^114.0.2",
+        "next": "^13.4.6",
+        "react": "18.2.0",
+        "react-dom": "18.2.0",
+        "selenium-webdriver": "^4.8.1"
+    },
+    "devDependencies": {
+        "jest": "^29.5.0"
+    },
+    "name": "wdvwai-seleniumonnextjs",
+    "description": "[Including the ChromeDriver location in MacOS System PATH](https://www.kenst.com/including-the-chromedriver-location-in-macos-system-path/). - Important note about ChromeDriver. Depending on your OS and how often you update your Chrome browser, your version may not match what is included with this repo. Due to the rapid release of Chrome, it is likely that this repo will fall out of sync at times. Please keep this in mind as you debug any initial problems with getting this process running.",
+    "version": "1.0.0",
+    "main": "external.test.js",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brandonbrown/wdvwai-seleniumOnNextJS.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/brandonbrown/wdvwai-seleniumOnNextJS/issues"
+    },
+    "homepage": "https://github.com/brandonbrown/wdvwai-seleniumOnNextJS#readme"
+}
